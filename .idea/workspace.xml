@@ -4,26 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmailClient.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/project/EmailManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/project/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/project/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/project/controller/LoginWindowController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/project/controller/MainWindowController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/project/controller/OptionsWindowController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/project/view/LoginWindow.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/project/view/MainWindow.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/project/view/OptionsWindow.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/project/view/ViewFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="email client">
+      <change afterPath="$PROJECT_DIR$/src/com/project/view/ColorTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/project/view/FontSize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/controller/OptionsWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/OptionsWindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/view/ViewFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/ViewFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +22,7 @@
         <option value="module-info" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -88,6 +75,14 @@
       <option name="presentableId" value="Default" />
       <updated>1685193835518</updated>
     </task>
+    <task id="LOCAL-00001" summary="email client">
+      <created>1685355062297</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685355062297</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,5 +95,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="email client" />
+    <option name="LAST_COMMIT_MESSAGE" value="email client" />
   </component>
 </project>
