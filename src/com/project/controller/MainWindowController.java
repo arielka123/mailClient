@@ -20,6 +20,12 @@ public class MainWindowController extends BaseController {
     public MainWindowController(EmailManager emailManager, ViewFactory viewFactory, String fxmlName) {
         super(emailManager, viewFactory, fxmlName);
     }
+
+    @FXML
+    void addAccountAction() {
+        viewFactory.showLoginWindow();
+    }
+
     @FXML
     void optionsAction() {
         viewFactory.showOptionsWindow();
