@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane prefHeight="462.0"
+            prefWidth="672.0"
+            xmlns="http://javafx.com/javafx/20.0.1"
+            xmlns:fx="http://javafx.com/fxml/1"
+            >
+   <children>
+      <MenuBar layoutY="1.0" prefHeight="25.0" prefWidth="672.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="1.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+                  <MenuItem mnemonicParsing="false" text="Open" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#optionsAction" text="Options" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TreeView fx:id="emailsTreeView" layoutY="26.0" prefHeight="437.0" prefWidth="145.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="26.0" />
+      <TableView fx:id="emailsTableView" layoutX="145.0" layoutY="26.0" prefHeight="143.0" prefWidth="528.0" AnchorPane.leftAnchor="145.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Sender" />
+          <TableColumn prefWidth="147.99998474121094" text="Subject" />
+            <TableColumn prefWidth="142.0" text="Recipient" />
+            <TableColumn prefWidth="80.00003051757812" text="Size" />
+            <TableColumn prefWidth="84.66668701171875" text="Date" />
+        </columns>
+      </TableView>
+      <WebView fx:id="emailWebView" layoutX="145.0" layoutY="169.0" prefHeight="291.0" prefWidth="528.0" AnchorPane.bottomAnchor="1.666656494140625" AnchorPane.leftAnchor="144.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="169.00001017252606" />
+   </children>
+</AnchorPane>
