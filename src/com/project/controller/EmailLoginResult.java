@@ -1,4 +1,4 @@
-package com.project.controller.services;
+package com.project.controller;
 
 public enum EmailLoginResult {
     SUCCESS,
