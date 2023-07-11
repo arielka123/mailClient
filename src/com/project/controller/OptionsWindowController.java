@@ -51,7 +51,7 @@ public class OptionsWindowController extends BaseController implements Initializ
         fontSizePicker.setSnapToTicks(true);
         fontSizePicker.setShowTickMarks(true);
         fontSizePicker.setShowTickLabels(true);
-        fontSizePicker.setLabelFormatter(new StringConverter<Double>() {
+        fontSizePicker.setLabelFormatter(new StringConverter<>() {
             @Override
             public String toString(Double object) {
                 int i = object.intValue();

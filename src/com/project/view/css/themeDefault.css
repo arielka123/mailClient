@@ -1,0 +1,16 @@
+.choice-box .menu-item:focused {
+    -fx-cursor: hand;
+}
+
+Button, ChoiceBox,  .menu-button:hover{
+   -fx-cursor: hand;
+}
+
+Slider .track {
+   -fx-cursor: hand;
+}
+
+.menu-item:hover{
+   -fx-cursor: hand;
+}
+

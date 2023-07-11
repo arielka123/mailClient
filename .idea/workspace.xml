@@ -4,23 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="configuring the options window">
-      <change afterPath="$PROJECT_DIR$/src/com/project/view/css/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/project/view/css/fontBig.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/project/view/css/fontMedium.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/project/view/css/fontSmall.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/project/view/css/themeDark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/project/view/css/themeDefault.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/project/view/css/themeLight.css" afterDir="false" />
+    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="updating the css dynamically">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/activation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_mail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/project/controller/services/EmailLoginResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/project/controller/services/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/project/model/EmailAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailClient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EmailClient.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/controller/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/MainWindowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/controller/OptionsWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/OptionsWindowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/view/ColorTheme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/ColorTheme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/view/FontSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/FontSize.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/view/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/MainWindow.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/view/OptionsWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/OptionsWindow.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/view/ViewFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/ViewFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/view/css/fontBig.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/css/fontBig.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/view/css/fontMedium.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/css/fontMedium.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/view/css/fontSmall.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/css/fontSmall.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/view/css/themeDark.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/css/themeDark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/view/css/themeDefault.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/css/themeDefault.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/view/css/themeLight.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/css/themeLight.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +41,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="future/mail" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="showPreview" value="true" />
   </component>
   <component name="ProjectId" id="2QNV4VaQwZeMv7Cm5e63vzXfQRC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -56,11 +68,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Arielka/Desktop/projekt_przyszły_programista/java/javaFxClientMail/EmailClient/src/com/project/view/css",
-    "project.structure.last.edited": "Global Libraries",
+    "last_opened_file_path": "C:/JavaLibs/activation.jar",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.editor"
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -108,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685360518979</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updating the css dynamically">
+      <created>1685366903128</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685366903128</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,7 +135,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="future/mail" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="future/mail" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -125,6 +171,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="email client" />
     <MESSAGE value="configuring the options window" />
-    <option name="LAST_COMMIT_MESSAGE" value="configuring the options window" />
+    <MESSAGE value="updating the css dynamically" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating the css dynamically" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/com/project/model/EmailAccount.java</url>
+          <line>10</line>
+          <properties field="store" class="com.project.model.EmailAccount" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

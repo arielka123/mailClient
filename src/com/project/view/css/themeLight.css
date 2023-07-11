@@ -3,7 +3,11 @@
 }
 
 .big{
-     -fx-font-size: 16pt;
+    -fx-text-fill: #394345;
+}
+
+Button, ChoiceBox, .menu-button{
+    -fx-cursor: hand;
 }
 
 Button, label, ChoiceBox, Slider {
@@ -18,12 +22,29 @@ Button:hover{
     -fx-background-color: #9bbec4;
 }
 
+.choice-box > .open-button > .arrow {
+    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
+}
+
 ChoiceBox >* {
     -fx-background-color: #b2ccd1;
+    -fx-mark-color: #394345;
+}
+
+.choice-box .left-container .radio{
+    -fx-background-color:  #394345;
+}
+
+.choice-box .label{
+    -fx-text-fill: #394345;
+}
+
+.choice-box .menu-item:focused {
+    -fx-cursor: hand;
 }
 
 Slider .axis {
-    -fx-tick-label-fill: white;
+    -fx-tick-label-fill: #394345;
 }
 
 Slider .track{
@@ -34,4 +55,15 @@ Slider .track:hover{
     -fx-background-color: #9bbec4;
 }
 
+Slider .track {
+   -fx-cursor: hand;
+}
 
+/** color the arrow */
+.table-view .column-header .arrow {
+    -fx-background-color:  #394345;
+}
+
+.menu-item:hover{
+   -fx-cursor: hand;
+}
