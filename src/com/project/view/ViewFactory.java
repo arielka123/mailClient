@@ -43,16 +43,12 @@ public class ViewFactory {
     }
 
     public void showLoginWindow(){
-        System.out.println("show login window");
-
         BaseController controller = new LoginWindowController(emailManager, this, "LoginWindow.fxml");
 
         initializeStage(controller);
     }
 
     public void showMainWindow(){
-        System.out.println("show main window");
-
         BaseController controller = new MainWindowController(emailManager, this, "MainWindow.fxml");
 
         initializeStage(controller);
