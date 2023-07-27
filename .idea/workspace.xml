@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="treeItem for folder structure">
-      <change afterPath="$PROJECT_DIR$/src/com/project/controller/services/FetchFolderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/project/model/EmailTreeItem.java" afterDir="false" />
+    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="fetching the email folder structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/EmailManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/EmailManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/controller/LoginWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/LoginWindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/controller/services/FetchFolderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/services/FetchFolderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/model/EmailAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/model/EmailAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/view/ViewFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/ViewFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,19 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="dccb7d5e-3500-4a3c-883a-11c120a4e1f7" />
+        <option name="url" value="https://github.com/arielka123/mailClient.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -151,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690457325779</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fetching the email folder structure">
+      <created>1690459961642</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690459961642</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,18 +221,10 @@
     <MESSAGE value="added java fx services" />
     <MESSAGE value="initialization login window" />
     <MESSAGE value="treeItem for folder structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="treeItem for folder structure" />
+    <MESSAGE value="fetching the email folder structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="fetching the email folder structure" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/project/controller/services/FetchFolderService.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="this" />
