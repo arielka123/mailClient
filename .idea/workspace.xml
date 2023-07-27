@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="initialization login window">
+    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="treeItem for folder structure">
+      <change afterPath="$PROJECT_DIR$/src/com/project/controller/services/FetchFolderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/project/model/EmailTreeItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/EmailManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/EmailManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/controller/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/MainWindowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/controller/services/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/services/LoginService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/model/EmailAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/model/EmailAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/view/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/MainWindow.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +21,8 @@
       <list>
         <option value="module-info" />
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -145,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690450582389</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="treeItem for folder structure">
+      <created>1690457325779</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690457325779</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,18 +200,23 @@
     <MESSAGE value="login service" />
     <MESSAGE value="added java fx services" />
     <MESSAGE value="initialization login window" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialization login window" />
+    <MESSAGE value="treeItem for folder structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="treeItem for folder structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/com/project/model/EmailAccount.java</url>
-          <line>10</line>
-          <properties field="store" class="com.project.model.EmailAccount" />
-          <option name="timeStamp" value="1" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/project/controller/services/FetchFolderService.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="this" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
