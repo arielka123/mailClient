@@ -4,13 +4,18 @@ import com.project.EmailManager;
 import com.project.controller.services.LoginService;
 import com.project.model.EmailAccount;
 import com.project.view.ViewFactory;
+import com.sun.mail.smtp.SMTPOutputStream;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
-public class LoginWindowController extends BaseController {
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class LoginWindowController extends BaseController implements Initializable {
 
     @FXML
     private TextField emailAddressField;
@@ -43,6 +48,17 @@ public class LoginWindowController extends BaseController {
                         Stage stage = (Stage) errorLabel.getScene().getWindow();
                         viewFactory.closeStage(stage);
                         return;
+                    case FAILED_BY_CREDENTIALS:
+                        System.out.println("invalid credentials!");
+                        return;
+                    case FAILED_BY_NETWORK:
+                        System.out.println("error with network!");
+                        return;
+                    case FAILED_BY_UNEXPECTED_ERROR:
+                        System.out.println("unexpected error!");
+                        return;
+                    default:
+                        return;
                 }
             });
         }
@@ -59,5 +75,11 @@ public class LoginWindowController extends BaseController {
             return false;
         }
         return true;
+    }
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        emailAddressField.setText("personalbudget.money@gmail.com");
+        passwordField.setText("ilozkhhjzurpblyn");
     }
 }

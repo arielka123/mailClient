@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="login service">
+    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="added java fx services">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/controller/LoginWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/LoginWindowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/controller/services/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/services/LoginService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/model/EmailAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/model/EmailAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/view/ViewFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/ViewFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="future/mail" />
+        <entry key="$PROJECT_DIR$" value="mail" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -130,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689085161367</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added java fx services">
+      <created>1690387699234</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690387699234</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,7 +149,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="mail" />
+                        <option value="b_multithreading" />
                       </list>
                     </value>
                   </entry>
@@ -177,7 +182,8 @@
     <MESSAGE value="updating the css dynamically" />
     <MESSAGE value="email account setup" />
     <MESSAGE value="login service" />
-    <option name="LAST_COMMIT_MESSAGE" value="login service" />
+    <MESSAGE value="added java fx services" />
+    <option name="LAST_COMMIT_MESSAGE" value="added java fx services" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
