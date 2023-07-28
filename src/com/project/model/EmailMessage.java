@@ -47,7 +47,7 @@ public class EmailMessage {
         return this.date.get();
     }
 
-    public boolean getIsRead() {
+    public boolean isRead() {
         return isRead;
     }
 
