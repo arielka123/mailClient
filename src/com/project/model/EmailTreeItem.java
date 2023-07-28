@@ -21,6 +21,10 @@ public class EmailTreeItem <String> extends TreeItem {
         this.emailMessages = FXCollections.observableArrayList();
     }
 
+    public ObservableList<EmailMessage> getEmailMessages(){
+        return emailMessages;
+    }
+
     public void addEmail(Message message) throws MessagingException {
         boolean messageIsRead = message.getFlags().contains(Flags.Flag.SEEN);
         EmailMessage emailMessage = new EmailMessage(
@@ -34,12 +38,12 @@ public class EmailTreeItem <String> extends TreeItem {
                 );
         emailMessages.add(emailMessage);
         if(!messageIsRead){
-            increamentMessages();
+            incrementMessages();
         }
-        System.out.println("added to "+ name + " " +message.getSubject());
+        System.out.println("added to "+ name + " " + message.getSubject() + " " + message.getRecipients(MimeMessage.RecipientType.TO)[0].toString());
     }
 
-    private void increamentMessages(){
+    private void incrementMessages(){
         unreadMassagesCount ++;
         updateName();
     }

@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="getting the messages">
-      <change afterPath="$PROJECT_DIR$/src/com/project/model/EmailMessage.java" afterDir="false" />
+    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="adding messages to folders">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/controller/services/FetchFolderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/services/FetchFolderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/EmailManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/EmailManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/controller/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/MainWindowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/model/EmailAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/model/EmailAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/model/EmailMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/model/EmailMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/model/EmailTreeItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/model/EmailTreeItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/view/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/MainWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690546461393</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="adding messages to folders">
+      <created>1690553574723</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1690553574723</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,9 +258,19 @@
     <MESSAGE value="fetching the email folder structure" />
     <MESSAGE value="fetching all folders" />
     <MESSAGE value="getting the messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="getting the messages" />
+    <MESSAGE value="adding messages to folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding messages to folders" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/project/controller/MainWindowController.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="this" />
