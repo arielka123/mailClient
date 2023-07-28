@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="fetching the email folder structure">
+    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="fetching all folders">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/controller/LoginWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/LoginWindowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/controller/services/FetchFolderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/services/FetchFolderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/model/EmailAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/model/EmailAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/view/ViewFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/ViewFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="mail" />
+        <entry key="$PROJECT_DIR$" value="b_multithreading" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -171,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690459961642</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fetching all folders">
+      <created>1690461459412</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690461459412</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,7 +190,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="b_multithreading" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -201,6 +206,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="future/mail" />
@@ -222,7 +232,8 @@
     <MESSAGE value="initialization login window" />
     <MESSAGE value="treeItem for folder structure" />
     <MESSAGE value="fetching the email folder structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="fetching the email folder structure" />
+    <MESSAGE value="fetching all folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="fetching all folders" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
