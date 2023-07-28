@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="fetching all folders">
+    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="getting the messages">
+      <change afterPath="$PROJECT_DIR$/src/com/project/model/EmailMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/controller/services/FetchFolderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/services/FetchFolderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/model/EmailAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/model/EmailAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/model/EmailTreeItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/model/EmailTreeItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690461459412</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="getting the messages">
+      <created>1690546461393</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690546461393</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,12 +194,17 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="b_Reading_the_email_messages" />
                       </list>
                     </value>
                   </entry>
@@ -233,7 +247,8 @@
     <MESSAGE value="treeItem for folder structure" />
     <MESSAGE value="fetching the email folder structure" />
     <MESSAGE value="fetching all folders" />
-    <option name="LAST_COMMIT_MESSAGE" value="fetching all folders" />
+    <MESSAGE value="getting the messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="getting the messages" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
