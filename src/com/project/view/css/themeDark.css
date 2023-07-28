@@ -1,0 +1,68 @@
+*{
+    -fx-background-color: #3a4559;
+    -fx-text-fill: white;
+}
+
+.big{
+    -fx-text-fill: white;
+}
+
+Button, ChoiceBox, .menu-button{
+    -fx-cursor: hand;
+}
+
+Button, label, ChoiceBox, Slider {
+    -fx-text-fill: white;
+}
+
+Button {
+    -fx-background-color: #353b4a;
+}
+
+Button:hover{
+    -fx-background-color: #616c87;
+}
+
+.choice-box > .open-button > .arrow {
+    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
+}
+
+ChoiceBox >* {
+    -fx-background-color: #353b4a;
+    -fx-mark-color: white;
+
+}
+
+.choice-box .menu-item:focused {
+    -fx-cursor: hand;
+}
+
+.choice-box .left-container .radio{
+    -fx-background-color: white;
+}
+
+Slider .axis {
+    -fx-tick-label-fill: white;
+}
+
+Slider .track{
+    -fx-background-color: #353b4a;
+}
+
+Slider .track:hover{
+    -fx-background-color: #616c87;
+}
+
+Slider .track {
+   -fx-cursor: hand;
+}
+
+.menu-item:hover{
+   -fx-cursor: hand;
+}
+
+
+/** color the arrow */
+.table-view .column-header .arrow {
+    -fx-background-color: white;
+}
