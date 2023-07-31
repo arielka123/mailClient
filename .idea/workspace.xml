@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="visualizing and loading messages">
-      <change afterPath="$PROJECT_DIR$/src/com/project/controller/services/FolderUpdaterService.java" afterDir="false" />
+    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="the message listener">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/EmailManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/EmailManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/controller/services/FetchFolderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/services/FetchFolderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/model/EmailTreeItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/model/EmailTreeItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690809293062</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="the message listener">
+      <created>1690816214972</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1690816214972</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,7 +297,8 @@
     <MESSAGE value="unread messages are bolded" />
     <MESSAGE value="sorting tableView elements" />
     <MESSAGE value="visualizing and loading messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="visualizing and loading messages" />
+    <MESSAGE value="the message listener" />
+    <option name="LAST_COMMIT_MESSAGE" value="the message listener" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
