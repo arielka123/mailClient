@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="tableView setup">
+    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="unread messages are bolded">
+      <change afterPath="$PROJECT_DIR$/src/com/project/model/SizeInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/controller/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/MainWindowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/model/EmailAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/model/EmailAccount.java" afterDir="false" />
@@ -198,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690560580902</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="unread messages are bolded">
+      <created>1690562049916</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690562049916</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,14 +271,15 @@
     <MESSAGE value="getting the messages" />
     <MESSAGE value="adding messages to folders" />
     <MESSAGE value="tableView setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="tableView setup" />
+    <MESSAGE value="unread messages are bolded" />
+    <option name="LAST_COMMIT_MESSAGE" value="unread messages are bolded" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/project/controller/MainWindowController.java</url>
-          <line>104</line>
+          <line>105</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
