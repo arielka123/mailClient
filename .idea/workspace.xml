@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="sorting tableView elements">
-      <change afterPath="$PROJECT_DIR$/src/com/project/controller/services/MessageRendererService.java" afterDir="false" />
+    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="visualizing and loading messages">
+      <change afterPath="$PROJECT_DIR$/src/com/project/controller/services/FolderUpdaterService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/controller/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/MainWindowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/model/EmailAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/model/EmailAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/model/EmailTreeItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/model/EmailTreeItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/EmailManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/EmailManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/controller/services/FetchFolderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/services/FetchFolderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="b_multithreading" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,7 +51,6 @@
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
-    <option name="showPreview" value="true" />
   </component>
   <component name="ProjectId" id="2QNV4VaQwZeMv7Cm5e63vzXfQRC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -213,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690795230730</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="visualizing and loading messages">
+      <created>1690809293062</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1690809293062</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,7 +237,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="b_Reading_the_email_messages" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -248,6 +253,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="b_Reading_the_email_messages" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="origin/master" />
@@ -280,7 +290,8 @@
     <MESSAGE value="tableView setup" />
     <MESSAGE value="unread messages are bolded" />
     <MESSAGE value="sorting tableView elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="sorting tableView elements" />
+    <MESSAGE value="visualizing and loading messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="visualizing and loading messages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
