@@ -21,10 +21,6 @@ public class EmailManager {
         FetchFolderService fetchFolderService = new FetchFolderService(emailAccount.getStore(), treeItem);
         fetchFolderService.start();
 
-//            treeItem.getChildren().add(new TreeItem<String>("Inbox"));
-//            treeItem.getChildren().add(new TreeItem<String>("Sent"));
-//            treeItem.getChildren().add(new TreeItem<String>("Folder"));
-//            treeItem.getChildren().add(new TreeItem<String>("Spam"));
         foldersRoot.getChildren().add(treeItem);
     }
 }

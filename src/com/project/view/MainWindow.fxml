@@ -32,16 +32,16 @@
           </Menu>
         </menus>
       </MenuBar>
-      <TreeView fx:id="emailsTreeView" layoutY="43.0" prefHeight="418.0" prefWidth="159.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="43.0" />
-      <TableView fx:id="emailsTableView" layoutX="158.0" layoutY="43.0" prefHeight="239.0" prefWidth="514.0" AnchorPane.leftAnchor="158.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="43.0">
+      <TreeView fx:id="emailsTreeView" layoutY="43.0" prefHeight="418.0" prefWidth="158.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="43.0" />
+      <TableView fx:id="emailsTableView" layoutX="158.0" layoutY="43.0" prefHeight="185.0" prefWidth="514.0" AnchorPane.leftAnchor="158.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="43.0">
         <columns>
-          <TableColumn prefWidth="75.0" text="Sender" />
-          <TableColumn prefWidth="147.99998474121094" text="Subject" />
-            <TableColumn prefWidth="142.0" text="Recipient" />
-            <TableColumn prefWidth="80.00003051757812" text="Size" />
-            <TableColumn prefWidth="84.66668701171875" text="Date" />
+          <TableColumn fx:id="senderCol" prefWidth="75.0" text="Sender" />
+          <TableColumn fx:id="subjectCol" prefWidth="147.99998474121094" text="Subject" />
+            <TableColumn fx:id="recipientCol" prefWidth="142.0" text="Recipient" />
+            <TableColumn fx:id="sizeCol" prefWidth="80.00003051757812" text="Size" />
+            <TableColumn fx:id="dateCol" prefWidth="84.66668701171875" text="Date" />
         </columns>
       </TableView>
-      <WebView fx:id="emailWebView" layoutX="158.0" layoutY="283.0" prefHeight="177.0" prefWidth="514.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="158.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="283.0" />
+      <WebView fx:id="emailWebView" layoutX="158.0" layoutY="229.0" prefHeight="231.0" prefWidth="514.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="158.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="229.0" />
    </children>
 </AnchorPane>
