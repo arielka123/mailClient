@@ -1,6 +1,5 @@
 package com.project.controller.services;
 
-import com.project.EmailManager;
 import com.project.model.EmailMessage;
 import javafx.concurrent.Service;
 import javafx.concurrent.Task;
