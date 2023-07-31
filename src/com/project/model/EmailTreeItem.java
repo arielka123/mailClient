@@ -40,7 +40,6 @@ public class EmailTreeItem <String> extends TreeItem {
         if(!messageIsRead){
             incrementMessages();
         }
-        System.out.println("added to "+ name + " " + message.getSubject() + " " + message.getRecipients(MimeMessage.RecipientType.TO)[0].toString());
     }
 
     private void incrementMessages(){

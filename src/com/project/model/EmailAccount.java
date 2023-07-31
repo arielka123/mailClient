@@ -5,8 +5,8 @@ import java.util.Properties;
 
 public class EmailAccount {
 
-    private String address;
-    private String password;
+    private String address = "personalbudget.money@gmail.com";
+    private String password = "ilozkhhjzurpblyn";
     private Properties properties;
     private Store store;
 
@@ -35,8 +35,10 @@ public class EmailAccount {
     }
 
     public EmailAccount(String address, String password) {
-        this.address = address;
-        this.password = password;
+
+      this.address = address;
+       this.password = password;
+
         properties = new Properties();
 
         properties.put("incomingHost", "imap.gmail.com");

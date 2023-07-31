@@ -1,6 +1,7 @@
 package com.project.controller;
 
 import com.project.EmailManager;
+import com.project.controller.services.MessageRendererService;
 import com.project.model.EmailMessage;
 import com.project.model.EmailTreeItem;
 import com.project.model.SizeInteger;
@@ -20,8 +21,6 @@ import java.util.Date;
 import java.util.ResourceBundle;
 
 public class MainWindowController extends BaseController implements Initializable {
-    @FXML
-    private WebView emailWebView;
 
     @FXML
     private TableView<EmailMessage> emailsTableView;
@@ -44,6 +43,11 @@ public class MainWindowController extends BaseController implements Initializabl
     @FXML
     private TreeView<String> emailsTreeView;
 
+    @FXML
+    private WebView emailWebView;
+
+    private MessageRendererService messageRendererService;
+
     public MainWindowController(EmailManager emailManager, ViewFactory viewFactory, String fxmlName) {
         super(emailManager, viewFactory, fxmlName);
     }
@@ -64,6 +68,22 @@ public class MainWindowController extends BaseController implements Initializabl
         setUpTreeView();
         setUpFolderSelection();
         setUpBoldRows();
+        setUpMessageRendererService();
+        setUpMessageSelection();
+    }
+
+    private void setUpMessageSelection() {
+        emailsTableView.setOnMouseClicked(event -> {
+            EmailMessage emailMessage = emailsTableView.getSelectionModel().getSelectedItem();
+            if(emailMessage != null){
+                messageRendererService.setEmailMessage(emailMessage);
+                messageRendererService.restart();
+            }
+        });
+    }
+
+    private void setUpMessageRendererService() {
+         messageRendererService = new MessageRendererService(emailWebView.getEngine());
     }
 
     private void setUpBoldRows() {
