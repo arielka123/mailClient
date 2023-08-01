@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="sorting tableView elements">
-      <change afterPath="$PROJECT_DIR$/src/com/project/controller/ComposeMessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/project/view/ComposeMessageWindow.fxml" afterDir="false" />
+    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="interacting with messages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/EmailManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/EmailManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/controller/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/MainWindowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/view/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/MainWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/view/ViewFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/ViewFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="Enum" />
         <option value="FxmlFile" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -35,11 +32,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
   }
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -53,7 +50,6 @@
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
-    <option name="showPreview" value="true" />
   </component>
   <component name="ProjectId" id="2QNV4VaQwZeMv7Cm5e63vzXfQRC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -96,10 +92,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Launcher" />
-        <item itemvalue="Application.Launcher" />
-        <item itemvalue="Application.Launcher" />
-        <item itemvalue="Application.Launcher" />
         <item itemvalue="Application.Launcher" />
       </list>
     </recent_temporary>
@@ -218,7 +210,35 @@
       <option name="project" value="LOCAL" />
       <updated>1690795230730</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="visualizing and loading messages">
+      <created>1690809293062</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1690809293062</updated>
+    </task>
+    <task id="LOCAL-00017" summary="the message listener">
+      <created>1690816214972</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1690816214972</updated>
+    </task>
+    <task id="LOCAL-00018" summary="receiving emails">
+      <created>1690817807646</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1690817807646</updated>
+    </task>
+    <task id="LOCAL-00019" summary="interacting with messages">
+      <created>1690822935045</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1690822935045</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,7 +257,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -253,6 +273,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="b_Reading_the_email_messages" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="origin/master" />
@@ -285,16 +310,15 @@
     <MESSAGE value="tableView setup" />
     <MESSAGE value="unread messages are bolded" />
     <MESSAGE value="sorting tableView elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="sorting tableView elements" />
+    <MESSAGE value="visualizing and loading messages" />
+    <MESSAGE value="the message listener" />
+    <MESSAGE value="receiving emails" />
+    <MESSAGE value="interacting with messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="interacting with messages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/project/controller/MainWindowController.java</url>
-          <line>130</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="5" />
