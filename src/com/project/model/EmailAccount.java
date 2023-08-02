@@ -7,8 +7,15 @@ public class EmailAccount {
 
     private String address = "personalbudget.money@gmail.com";
     private String password = "ilozkhhjzurpblyn";
+//    private String address;
+//    private String password;
     private Properties properties;
     private Store store;
+
+    @Override
+    public String toString() {
+        return  address;
+    }
 
     public String getAddress() {
         return address;

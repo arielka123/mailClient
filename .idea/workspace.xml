@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="interacting with messages">
+    <list default="true" id="62b781fc-f676-47e4-bfad-1195a2b111c1" name="Changes" comment="sorting tableView elements">
+      <change afterPath="$PROJECT_DIR$/src/com/project/controller/EmailSendingResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/project/controller/services/EmailSenderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/EmailManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/EmailManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/controller/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/MainWindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/controller/ComposeMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/controller/ComposeMessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/model/EmailAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/model/EmailAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/view/ComposeMessageWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/view/ComposeMessageWindow.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +36,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -257,7 +261,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="composing_messages" />
                       </list>
                     </value>
                   </entry>
